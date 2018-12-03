@@ -3,7 +3,7 @@ nav {
   background-color: #092175;
   float: left;
   position: fixed;
-  width: 100%;
+  width: 80%;
 }
 
 a {
@@ -16,10 +16,11 @@ a:hover { color:#E969FE; } /* mouse over */
 a:active { color:#E969FE; } /* selected */
 
 body {
-  background-color: ##547AFF;
   color: #000000;
   font-size: 16px;
   line-height: 1.5;
+  width: 80%;
+  margin: auto;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h3 {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .left, .right {
@@ -61,4 +62,8 @@ ul {
 li {
   float: right;
   padding: 30px;
+}
+
+p {
+  padding-bottom: 8px;
 }
